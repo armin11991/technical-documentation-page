@@ -1,6 +1,5 @@
 * {
     font-family: raleway;
-    font-weight: bold;
     margin: 0;
     padding: 0;
 }
@@ -10,8 +9,25 @@ a {
     color: black;
 }
 
-a:hover {
-    color: #78006e;
+p {
+    color: black;
+    font-family: Raleway;
+    font-size: 1rem;
+}
+
+.nav-link:hover:hover {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+header {
+    margin-bottom: 3rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 #navbar {
@@ -27,7 +43,7 @@ a:hover {
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
@@ -45,6 +61,77 @@ a:hover {
     height: 50%;
     display: grid;
     text-align: center;
+}
+
+.first-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffff;
+}
+
+.left-side {
+    width: 30%;
+    height: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    line-height: 2.5rem;
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+
+.left-side-02 {
+    width: 40%;
+    height: 100%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;   
+    line-height: 2.5rem;
+}
+
+.right-side-02 {
+    width: 40%;
+    height: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+    padding: 1rem;
+}
+
+.section-image {
+    height: 375px;
+    width: 380px;
+    border-radius: 50%;
+    box-shadow: 0 9px 9px rgba(0,0,0,0.3), 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.find-more-bttn {
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #ffff;
+    border: 1px solid black;
+    border-radius: .2rem;
 }
 
 /* Necesario al menos un mediaquery para aprobar el ejercicio */
